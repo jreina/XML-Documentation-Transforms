@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DocumentedApplication</name>
+    </assembly>
+    <members>
+        <member name="T:DocumentedApplication.DocumentedConcreteClass">
+            <summary>
+            This is a concrete class which implements inherited methods.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedConcreteClass.InterfaceMethod">
+            <summary>
+            This is a concrete implementation of InterfaceMethod.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedConcreteClass.InterfaceMethodBool">
+            <summary>
+            This is a concrete implementation of InterfaceMethodBool.
+            </summary>
+            <returns>A boolean.</returns>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedConcreteClass.InterfaceMethodInt">
+            <summary>
+            This is a concrete implementation of InterfaceMethodInt.
+            </summary>
+            <returns>An integer.</returns>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedConcreteClass.InterfaceMethodString">
+            <summary>
+            This is a concrete implementation of InterfaceMethodString.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="T:DocumentedApplication.DocumentedInstanceClass">
+            <summary>
+            This is a well-documented instance class.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedInstanceClass.#ctor">
+            <summary>
+            This is the parameterless constructor for DocumentInstanceClass.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedInstanceClass.#ctor(System.Object,System.Object)">
+            <summary>
+            This is a constructor which accepts two objects as parameters.
+            </summary>
+            <param name="a">Object a</param>
+            <param name="b">Object b</param>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedInstanceClass.DoStuffTo(System.Object)">
+            <summary>
+            This is an instance method of DocumentedInstanceClass which accepts an object as a parameter.
+            </summary>
+            <param name="b">Object b</param>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedInstanceClass.DoStuffTo``1(System.Object)">
+            <summary>
+            This is a generic instance method
+            </summary>
+            <typeparam name="T">Type T.</typeparam>
+            <param name="b">Object b</param>
+            <returns></returns>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedInstanceClass.InstancePropertyString">
+            <summary>
+            This is a string instance property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedInstanceClass.InstancePropertyInt">
+            <summary>
+            This is an int instance property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedInstanceClass.InstancePropertyBoolean">
+            <summary>
+            This is a boolean instance property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedInstanceClass.InstancePropertyIntArray">
+            <summary>
+            This is a integer array instance property.
+            </summary>
+        </member>
+        <member name="T:DocumentedApplication.DocumentedStaticClass">
+            <summary>
+            This is a well-documented static class.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedStaticClass.StaticPropertyString">
+            <summary>
+            This is a static string property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedStaticClass.StaticPropertyInt">
+            <summary>
+            This is a static integer property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedStaticClass.StaticPropertyBool">
+            <summary>
+            This is a static boolean property.
+            </summary>
+        </member>
+        <member name="P:DocumentedApplication.DocumentedStaticClass.StaticPropertyIntArray">
+            <summary>
+            This is a static integer array property.
+            </summary>
+        </member>
+        <member name="T:DocumentedApplication.IAmDocumented">
+            <summary>
+            This is a well-documented interface.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.IAmDocumented.InterfaceMethod">
+            <summary>
+            This is a well-documented interface method.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.IAmDocumented.InterfaceMethodInt">
+            <summary>
+            This is a well-documented interface method which returns an integer.
+            </summary>
+            <returns>An integer.</returns>
+        </member>
+        <member name="M:DocumentedApplication.IAmDocumented.InterfaceMethodBool">
+            <summary>
+            This is a well-documented interface method which returns a boolean.
+            </summary>
+            <returns>A boolean.</returns>
+        </member>
+        <member name="M:DocumentedApplication.IAmDocumented.InterfaceMethodString">
+            <summary>
+            This is a well-documented interface method which returns a string.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="T:DocumentedApplication.Program">
+            <summary>
+            This is the class which contains the entry point of the DocumentedApplication.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.Program.Main(System.String[])">
+            <summary>
+            This is the entry point of the DocumentedApplication.
+            </summary>
+            <param name="args">This is the space-delimited command-line arguments passed into DocumentedApplication</param>
+        </member>
+        <member name="T:DocumentedApplication.DocumentedAbstractClass">
+            <summary>
+            I am a well-documented abstract class which implements the IAmDocumented interface.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedAbstractClass.InterfaceMethod">
+            <summary>
+            I am an abstract implementation of InterfaceMethod.
+            </summary>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedAbstractClass.InterfaceMethodBool">
+            <summary>
+            I am an abstract implementation of InterfaceMethodBool.
+            </summary>
+            <returns>A boolean.</returns>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedAbstractClass.InterfaceMethodInt">
+            <summary>
+            I am an abstract implementation of InterfaceMethodInt.
+            </summary>
+            <returns>An integer.</returns>
+        </member>
+        <member name="M:DocumentedApplication.DocumentedAbstractClass.InterfaceMethodString">
+            <summary>
+            I am an abstract implementation of InterfaceMethodString.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+    </members>
+</doc>

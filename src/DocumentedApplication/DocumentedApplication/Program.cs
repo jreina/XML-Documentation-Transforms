@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// This is the default namespace of DocumentedApplication.
-/// </summary>
 namespace DocumentedApplication
 {
     /// <summary>
